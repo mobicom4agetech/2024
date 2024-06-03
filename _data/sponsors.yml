@@ -1,7 +1,8 @@
-# gold_sponsors:
-#   - name: 
-#     link: 
-#     logo: 
+all_sponsors:
+   - name: Massachusetts AI and Technology Center for Connected Care in Aging and Alzheimer’s Disease 
+     link: https://massaitc.org/
+     logo: massaitc.png
+
 #     sidebar: true
 #   - name: 
 #     link: 
