@@ -2,7 +2,7 @@ general_chairs:
   - firstname: Benjamin  
     lastname: Marlin
     institution: Associate Professor, Manning College of Information and Computer Sciences, University of Massachusetts Amherst.
-    link: https://groups.cs.umass.edu/
+    link: https://groups.cs.umass.edu/marlin/
   - firstname: Asif 
     lastname: Salekin
     institution: Assistant Professor, Electrical Engineering and Computer Science, Syracuse University.
@@ -16,7 +16,7 @@ steering:
   - firstname: Tarek
     lastname: Abdelzaher
     institution: Professor of Computer Science, University of Illinois.
-    link: https://people.cs.umass.edu/~dganesan/
+    link: http://abdelzaher.cs.illinois.edu/
   - firstname: Niteesh   
     lastname: Choudhry
     institution: Professor, Harvard Medical School and Department of Medicine, Brigham and Women's Hospital.
