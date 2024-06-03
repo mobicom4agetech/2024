@@ -22,10 +22,11 @@
 
         <h3>Workshop Co-chairs</h3>
         {% for chair in site.data.chairs.general_chairs %}
-            <div class="clearfix">
+            <div class="clearfix" style="margin-bottom:10px">
                 <img src='img/committees/{{ chair.lastname }}.jpg' style="width:120px;float:left;margin-right:5px;">
                 <p align='justify'>
                     <A HREF="{{ chair.link }}" target="_blank">{{ chair.firstname }} {{ chair.lastname }}</A><BR>
+                    {{ chair.position }}<BR>
                     {{ chair.institution }}
                 </p>
             </div>
@@ -36,6 +37,7 @@
             <div class="clearfix">
                 <img src='img/committees/{{ m.lastname }}.jpg' style="width:120px;float:left;margin-right:5px;">
                 <p align='justify'><A HREF="{{ m.link }}" target="_blank">{{ m.firstname }} {{ m.lastname }}</A><BR>
+                {{ m.position }}<BR>
                 {{ m.institution }}</p>
             </div>
         {% endfor %}
