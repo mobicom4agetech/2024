@@ -26,6 +26,11 @@ steering:
     position: Professor
     institution: Harvard Medical School and Department of Medicine, Brigham and Women's Hospital.
     link: https://postgraduateeducation.hms.harvard.edu/faculty-staff/niteesh-choudhry
+  - firstname: Holly   
+    lastname: Jimison
+    position: Research Professor
+    institution: Khoury College of Computer Sciences and the Bouvé College of Health Sciences, Northeastern University.
+    link: https://www.khoury.northeastern.edu/people/holly-jimison/
 
 #poster_demo_chairs:
 #  - firstname: 
