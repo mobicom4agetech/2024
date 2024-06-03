@@ -22,16 +22,16 @@
 
         <h3>Workshop Co-chairs</h3>
         {% for chair in site.data.chairs.general_chairs %}
-        {{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}<br/>
+        <A HREF="{{ chair.link }}">{{ chair.firstname }} {{ chair.lastname }}</A>, {{ chair.institution }}<br/>
+        {% endfor %}
+
+        <h3>Steering Committee</h3>
+        {% for m in site.data.chairs.steering %}
+        <A HREF="{{ m.link }}"></A>{{ m.firstname }} {{ m.lastname }}</A>, {{ m.institution }}<br/>
         {% endfor %}
 
         <h3>Technical Program Committee</h3>
         TBA
-
-        <h3>Steering Committee</h3>
-        {% for m in site.data.chairs.steering %}
-        {{ m.firstname }} {{ m.lastname }}, {{ m.institution }}<br/>
-        {% endfor %}
 
     </div>
 </section>
