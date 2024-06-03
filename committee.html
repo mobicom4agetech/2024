@@ -34,7 +34,7 @@
 
         <h3>Steering Committee</h3>
         {% for m in site.data.chairs.steering %}
-            <div class="clearfix">
+            <div class="clearfix" style="margin-bottom:10px">
                 <img src='img/committees/{{ m.lastname }}.jpg' style="width:120px;float:left;margin-right:5px;">
                 <p align='justify'><A HREF="{{ m.link }}" target="_blank">{{ m.firstname }} {{ m.lastname }}</A><BR>
                 {{ m.position }}<BR>
