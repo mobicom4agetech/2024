@@ -1,0 +1,51 @@
+<nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+    <div class="container">
+        <div class="navbar-header">
+
+            <!-- logo -->
+            <div class="site-branding">
+                <a class="logo" href="index.html">{{ site.data.conference.short_title }} {{ site.data.conference.year }}</a>
+            </div>
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div><!-- /.navbar-header -->
+
+        <div class="collapse navbar-collapse" id="navbar-items">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- navigation menu -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cfp.html">Call for Papers</a></li>
+                <li><a href="committee.html">Committees</a></li>
+                <!--                    <li><a href="cfp-poster-demo.html">Call for Posters and Demos</a></li>-->
+                <!--<li><a href="camera-ready.html">Publication Information</a></li>-->
+                <!--<li><a href="accepted.html#accepted">Accepted Papers</a></li>-->
+                <!--                    <li><a href="program.html#program">Program</a></li>-->
+                <!--<li><a href="keynote.html">Keynote</a></li>-->
+            </ul>
+        </div>
+    </div><!-- /.container -->
+</nav>
+
+<header id="site-header" class="site-header valign-center" height="100px">
+    <div class="intro">
+
+        <h1>{{ site.data.conference.short_title }} {{ site.data.conference.year }}</h1>
+
+        <h2>{{ site.data.conference.title }} {{ site.data.conference.year }}</h2>
+
+        <br class="mobile-break">
+        <h2>{{ site.data.conference.location }}<br>{{ site.data.conference.dates }}</h2>
+
+        <!-- <br class="mobile-break"> -->
+        <p><small>{{ site.data.conference.subtitle }}</small></p>
+
+        <br class="mobile-break" style="line-height: 5px"/>
+
+    </div>
+</header>

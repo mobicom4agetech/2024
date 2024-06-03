@@ -1,0 +1,63 @@
+---
+# this is an empty front matter
+---
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.data.conference.short_title }} {{ site.data.conference.year }} | ACM MobiCom {{ site.data.conference.year }}</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    {% include header.html %}
+
+    <section id="about" class="section about" style="display: block;">
+        <div class="container">
+            <h3 style="text-align:center;" class="section-title">{{ site.data.conference.title }}
+            </h3>
+
+            <p align="justify">The 1st ACM Workshop on Wireless and Mobile Computing for AgeTech (MobiCom4AgeTech) will bring together academic researchers, industry leaders, and government partners to present research and discuss challenges and opportunities at the intersection of wireless and mobile computing, AI and data analytics, and technologies for supporting aging. The workshop will include keynote presentations from aging and technology research experts, contributed paper presentations and demos, panel discussions, and presentations from research funders and commercialization partners. </p>
+            
+            <p align="justify">By 2060, it is estimated that nearly a quarter of the US population (over 95 million people) will be over the age of 65 and most will have multiple chronic conditions including cognitive impairment or dementia. The wireless and mobile computing research community has the potential to play a central role in the development of monitoring, assistive and interventional technologies for supporting healthy aging, an emerging area referred to as AgeTech. However, <A HREF="https://www.nia.nih.gov/news/new-report-emerging-technologies-help-older-americans-maintain-independence">significant technology development challenges abound</A> including improving accuracy, usability, access, and reliable guarantee for privacy, and security while decreasing bias, user burden. </p>
+            
+            <p align="justify">The wireless and mobile computing field has the potential to play a central role in this emerging area, referred to as AgeTech, by addressing key tech technical challenges with the deployment of wireless and mobile sensing and computing technologies for use by older adults and caregivers, including AI-enabled and enhanced technologies. </p> 
+
+            <p id="listing" align="justify">In addition to research paper presentations, the program of {{ site.data.conference.short_title }} {{ site.data.conference.year }} will include:</p>
+<!--            TODO: Update this section-->
+            <li>Keynote speeches from experts in aging and AgeTech.</li>
+            <li>A panel session on funding AgeTech for research</li>
+            <li>Demos and posters</li>
+            <br>
+
+			{% if site.data.keynotes.size > 0 %}
+            <p><b>Keynote Speakers:</b><br/>
+						{% for keynote in site.data.keynotes %}
+							{{ keynote.academic_title }} {{ keynote.firstname }} {{ keynote.lastname }}, {{ keynote.affiliation }}
+						{% endfor %}
+			{% endif %}
+
+            <p align="justify"><b>IMPORTANT DATES:</b><br/>
+                Research Paper submission: {{ site.data.dates.submission }}<br/>
+                Research Paper acceptance notification: {{ site.data.dates.notification }}<br/>
+                Demo &amp; Poster abstract submission: {{ site.data.dates.poster_demo_submission }}<br/>
+                Demo &amp; Poster notification: {{ site.data.dates.poster_demo_notification }}<br/>
+                Camera ready: {{ site.data.dates.camera_ready }}<br/>
+                Workshop: {{ site.data.conference.dates }}
+            </p>
+
+        </div><!-- /.container -->
+    </section>
+
+    <!-- import navigation bar and header -->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+</body>
+</html>

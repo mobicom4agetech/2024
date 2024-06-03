@@ -1,0 +1,23 @@
+general_chairs:
+  - firstname: Benjamin  
+    lastname: Marlin
+    institution: University of Massachusetts Amherst
+  - firstname: Asif 
+    lastname: Salekin
+    institution: Syracuse University
+  - firstname: Deepak
+    lastname: Ganesan 
+    institution: University of Massachusetts Amherst 
+
+#poster_demo_chairs:
+#  - firstname: 
+#    lastname: 
+#    institution: 
+#  - firstname: 
+#    lastname: 
+#    institution:
+
+#web_chairs:
+#   - firstname: 
+#     lastname: 
+#     institution:
