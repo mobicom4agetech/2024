@@ -29,7 +29,9 @@
         TBA
 
         <h3>Steering Committee</h3>
-        Niteesh Choudhry, MD, PhD. Professor, Harvard Medical School, and Department of Medicine, Brigham and Women's Hospital.
+        {% for m in site.data.chairs.steering %}
+        {{ m.firstname }} {{ m.lastname }}, {{ m.institution }}<br/>
+        {% endfor %}
 
     </div>
 </section>

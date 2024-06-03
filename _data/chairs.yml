@@ -1,13 +1,21 @@
 general_chairs:
   - firstname: Benjamin  
     lastname: Marlin
-    institution: University of Massachusetts Amherst
+    institution: Associate Professor, Manning College of Information and Computer Sciences, University of Massachusetts Amherst.
   - firstname: Asif 
     lastname: Salekin
-    institution: Syracuse University
+    institution: Assistant Professor, Electrical Engineering and Computer Science, Syracuse University.
   - firstname: Deepak
     lastname: Ganesan 
-    institution: University of Massachusetts Amherst 
+    institution: Professor, Manning College of Information and Computer Sciences, University of Massachusetts Amherst. 
+
+steering:
+  - firstname: Tarek
+    lastname: Abdelzaher
+    institution: Professor of Computer Science, University of Illinois.
+  - firstname: Niteesh   
+    lastname: Choudhry
+    institution: Professor, Harvard Medical School and Department of Medicine, Brigham and Women's Hospital.
 
 #poster_demo_chairs:
 #  - firstname: 
