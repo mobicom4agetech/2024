@@ -43,11 +43,11 @@
         {% endfor %}
 
         <h3>Technical Program Committee</h3>
-        <P><UL>
+        <P id="listing" align="justify">
         {% for r in site.data.tpc %}
                 <LI>{{ r.firstname }} {{ r.lastname }}, {{ r.institution }}</LI>
         {% endfor %}
-        </UL></P>
+        </P>
 
     </div>
 </section>
