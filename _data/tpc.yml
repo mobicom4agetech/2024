@@ -1,9 +1,12 @@
-- firstname: Sudeshna	  
-  lastname: Das
-  institution: Massachusetts General Hospital and Harvard Medical School.
+- firstname: Roy	  
+  lastname: Adams
+  institution: Johns Hopkins School of Medicine.
 - firstname: Bashima 
   lastname: Islam
   institution: Department of Electrical and Computer Engineering, Worcester Polytechnic Institute.
+- firstname: Amar 
+  lastname: Basu
+  institution: Electrical and Computer Engineering, Wayne State University.
 - firstname: Erik    
   lastname: Larsen
   institution: Sonde Health, Inc.
