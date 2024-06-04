@@ -43,7 +43,11 @@
         {% endfor %}
 
         <h3>Technical Program Committee</h3>
-        TBA
+        <P>
+        {% for r in site.data.tpc %}
+                {{ m.firstname }} {{ m.lastname }}, {{ m.institution }}<BR>
+        {% endfor %}
+        </P>
 
     </div>
 </section>
