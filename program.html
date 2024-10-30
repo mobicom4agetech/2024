@@ -1,0 +1,77 @@
+---
+# this is an empty front matter
+---
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.data.conference.short_title }} {{ site.data.conference.year }} | ACM MobiCom {{ site.data.conference.year }}</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    {% include header-small.html %}
+
+    <section id="organization" class="section faq" style="display: block;">
+        <div class="container">
+    
+            <h3>Program</h3>
+
+            <table class="table table-hover">
+                <thead class="thead-dark"><th>Start</th><th>End</th><th>Session</th></thead>
+
+                {% for s in site.data.program.sessions %}
+                <tr ><td>{{s.start}}</td>
+                     <td>{{s.end}}</td> 
+                     <td><b>{{s.title}}</b>
+
+                        {% assign speakers = site.data.program.speakers | where:'session', s.name %}
+                        <ul style="margin-top:5px">
+                           {% for p in speakers %}
+                             <li style="font-weight:normal;">                             
+                                <a href = {{p.url}} target="_blank">{{p.name}}</a>, {{p.title}} 
+                             {% if s.type == "oral" %}
+                                 <i>{{p.talk}}.</i> 
+                                <a data-toggle="collapse" href="#abstract-{{s.name}}-{{forloop.index}}" aria-expanded="false" aria-controls="abstract-{{s.name}}-{{forloop.index}}">(Abstract)</a>
+                                <div class="collapse" id="abstract-{{s.name}}-{{forloop.index}}" style="margin-top:5px;">
+                                    <p><u>Abstract:</u> {{p.abstract}}</p>
+                                </div>
+                             {% endif %}
+                             {% if s.type == "posters" %}
+                                <i>{{p.talk}}.</i> 
+                             {% endif %}
+                            </li>
+                           {% endfor %}  
+                         </ul>
+
+                     </td>
+                </tr>
+                {% endfor %}
+            </table>
+
+            <A id="posters"></A><h3>Posters</h3>
+            {% assign speakers = site.data.program.speakers | where:'session', 'posters' %}
+            <ul style="margin-top:5px">
+               {% for p in speakers %}
+                 <li style="font-weight:normal;">                             
+                    <a href = {{p.url}} target="_blank">{{p.name}}</a>, {{p.title}} 
+                    <i>{{p.talk}}.</i> 
+                </li>
+               {% endfor %}  
+             </ul>
+
+        </div>
+    </section>
+
+    <!-- import navigation bar and header -->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+</body>
+</html>

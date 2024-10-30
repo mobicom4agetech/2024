@@ -1,0 +1,220 @@
+sessions:
+ - start: 8:30am
+   end: 8:35am
+   title: "Welcome and Opening Remarks"
+   name: welcome
+   type: remarks
+
+ - start: 8:35am
+   end: 9:20am
+   title: "Keynote"
+   name: keynote1
+   type: keynote
+
+ - start: 9:20am
+   end: 10:00am
+   title: "Oral Session 1: Alzheimer's Disease and Related Dementias"
+   name: oral1
+   type: oral
+
+ - start: 10:00am
+   end: 10:30am
+   title: "Break, <a href='#posters'>Poster and demo viewing.</a>"
+   name: break1
+   type: break
+
+ - start: 10:30am
+   end: 11:10am
+   title: "Oral Session 2: Activity Recognition and Tracking"
+   name: oral2
+   type: oral
+
+ - start: 11:10am
+   end: 12:25pm
+   title: "Panel Discussion:  Wearable and Wireless Sensing for AgeTech"
+   name: panel-tech
+   type: panel
+
+ - start: 12:25pm
+   end: 1:25pm
+   title: "<a href='#posters'>Poster and demo viewing,</a> Lunch."
+   name: lunch
+   type: break
+
+ - start: 2:00pm
+   end: 2:45pm
+   title: "Keynote"
+   name: keynote2
+   type: keynote
+
+ - start: 2:45pm
+   end: 3:45pm
+   title: "Oral Session 3: Cardiovascular Monitoring"
+   name: oral3
+   type: oral
+
+ - start: 3:45pm
+   end: 4:00pm
+   title: "Break"
+   name: break3
+   type: break
+
+ - start: 4:00pm
+   end: 4:40am
+   title: "Oral Session 4: Multimodal Assessment and Intervention"
+   name: oral4
+   type: oral
+
+ - start: 4:40pm
+   end: 5:25am
+   title: "Panel Discussion: AgeTech Funding"
+   name: panel-funding
+   type: panel
+
+ - start: 5:25pm
+   end: 5:30pm
+   title: "Closing Remarks"
+   name: closing
+   type: remarks
+
+speakers:
+  - name: Benjamin M. Marlin, PhD. 
+    title: Professor of Computer Science. University of Massachusetts Amherst.
+    session: welcome
+    url: https://groups.cs.umass.edu/marlin/
+
+  - name: Deepak Ganesan, PhD. 
+    title: Professor of Computer Science. University of Massachusetts Amherst.
+    session: closing
+    url: https://people.cs.umass.edu/~dganesan/
+
+  - name: George Demiris, PhD, FACMI. 
+    title: Mary Alice Bennett University Professor. Penn Integrates Knowledge University Professor. Associate Dean for Research and Innovation. University of Pennsylvania School of Nursing.
+    session: keynote1
+    url: https://www.nursing.upenn.edu/live/profiles/15259-george-demiris
+    
+  - name: Niteesh K. Choudhry, MD, PhD. 
+    title: Professor of Medicine, Harvard Medical School. Professor, Department of Health Policy and Management, Harvard T.H. Chan School of Public Health. Executive Director, Center for Healthcare Delivery Sciences, Brigham and Women's Hospital.
+    session: keynote2
+    url: https://postgraduateeducation.hms.harvard.edu/faculty-staff/niteesh-k-choudhry
+
+  - name: Amelia Hay
+    title: VP of Startup Programming and Investments at AgeTech Collaborative™. AARP.
+    session: panel-funding
+    url:  https://aarpinnovationlabs.org
+
+  - name: Abid Siddiqui
+    title: Principal. AI Fund.
+    session: panel-funding
+    url:  https://www.aifund.ai
+
+  - name: Xiaomin Ouyang
+    title: "Assistant Professor at Department of Computer Science & Engineering, Hong Kong University of Science and Technology."
+    talk: "Detecting Digital Biomarkers of Alzheimer's Disease with AI-Powered Multimodal Sensing Systems"
+    abstract: "Over 55 million people worldwide have Alzheimer’s Disease (AD), a degenerative and irreversible brain disorder. Unfortunately, 75% of AD patients remain undiagnosed, as current diagnostic methods are usually intrusive and labor-intensive. In our work, we focus on detecting digital biomarkers that capture the behavioral symptoms of AD for early diagnosis. We will first introduce the design and deployment of ADMarker, an end-to-end system that integrates multimodal sensing technologies and federated learning algorithms for identifying multidimensional digital biomarkers in natural living environments. This system has been deployed in a clinical trial involving over 100 elderly subjects. Next, we will discuss how we tackle real-world challenges in such systems such as distributed and imperfect IoT data, limited resources, scalability, etc. By addressing these issues, our system accurately detects digital biomarkers and enables early AD identification, providing a new platform for longitudinal health monitoring and personalized intervention."
+    url: https://xmouyang.github.io/
+    session: oral1
+
+  - name: FAN Xiubin
+    title: "PhD student, City University of Hong Kong."
+    talk: "Experiences of Deploying a Citywide Crowdsourcing Platform to Search for Missing People with Dementia"
+    abstract: "In this talk, we will present a crowdsourcing platform designed to enhance the safety of individuals with dementia (PwD) and share the unique lessons and experiences gained from its deployment. As cognitive decline increases the risk of PwD becoming lost, we have developed an innovative search system in Hong Kong that utilizes customized Bluetooth Low Energy (BLE) tags and a network of mobile volunteers to facilitate efficient search efforts. Since its launch in 2019, our system has supported over 3,100 families and successfully located 254 missing individuals, demonstrating the potential of technology to improve the lives of aging populations and foster dementia-friendly communities."
+    url: https://scholars.cityu.edu.hk/en/persons/xiubin-fan(b934a084-4d22-4e0d-b752-0d9ed0d450e5).html
+    session: oral1
+
+  - name: Md Touhiduzzaman
+    title: PhD Student, Virginia Commonwealth University.
+    abstract: "Maintaining independence in daily activities and mobility is critical for healthy aging. Older adults who are losing the ability to care for themselves or ambulate are at a high risk of adverse health outcomes and decreased quality of life. It is essential to monitor daily activities and mobility routinely and capture early decline before a clinical symptom arises. Existing solutions use self-reports, or technology-based solutions that depend on cameras or wearables to track daily activities; however, these solutions have different issues (e.g., bias, privacy, burden to carry/recharge them) and do not fit well for seniors. In this study, we discuss a non-invasive, and low-cost wireless sensing-based solution to track the daily activities of low-income older adults. The proposed sensing solution relies on a deep learning-based fine-grained analysis of ambient WiFi signals and it is non-invasive compared to video or wearable-based existing solutions. We deployed this system in real senior housing settings for a week and evaluated its performance. Our initial results show that we can detect a variety of daily activities of the participants with this low-cost system with an accuracy of up to 76.90%."
+    talk: "Wireless Sensing-based Daily Activity Tracking System Deployment in Low-Income Senior Housing Environments"
+    url: https://www.linkedin.com/in/touhidroid/
+    session: oral2
+
+  - name: Soumita Ghosh
+    title: PhD Student, Virginia Commonwealth University.
+    abstract: "Utilizing fine grained analysis of wireless signals for human activity recognition has gained a lot of traction recently. The unique changes to the ambient wireless signals caused by different activities made it possible to recognize these fingerprints through deep learning classification methods. Most of the existing work consider a set of physical activities or gestures and try to recognize each one of them as a separate class. However, this makes the classification task harder especially when the number of activities to recognize becomes larger and when these activities include movements from the same body parts. To address that, in this study, we consider the decomposition of each physical activity into the limbs and body parts involved in that activity and study a one-by-one recognition solution. We propose a Generative Adversarial Network (GAN)-based hierarchical method that not only recognizes the involved body limbs and facilitates the recognition of complex activities, but also mitigates the temporal effects in the collected signal data and thus provides a generalized solution. Our experimental evaluation shows that we can recognize unknown physical activities through the proposed hierarchical limb recognition based model with a small Hamming loss and by just using WiFi signal data from a single transmitter and receiver link."
+    talk: "Wi-Limb: Recognizing Moving Body Limbs Using a Single WiFi Link"
+    url: https://www.linkedin.com/in/soumita-ghosh-810912193/?trk=people-guest_profile-result-card_result-card_full-click&originalSubdomain=bd
+    session: oral2
+
+  - name: VP Nguyen
+    title: "Assistant Professor of Computer Science, University of Massachusetts Amherst. Director, Wireless & Sensor Systems Laboratory."
+    url: https://people.cs.umass.edu/~phuc/
+    session: panel-tech
+
+  - name: Yaxiong Xie
+    title: "Assistant Professor, Department of Computer Science and Engineering,  University at Buffalo, SUNY. Director, Next Generation Mobile-Network Lab"
+    url: https://xieyaxiongfly.github.io/
+    session: panel-tech
+
+  - name: Jie Xiong
+    title: "Principal Researcher, Microsoft Research Lab - Asia. Associate Professor of Computer Science, University of Massachusetts Amherst."
+    url: https://people.cs.umass.edu/~jxiong/
+    session: panel-tech
+
+  - name: Alexander Gherardi
+    title: PhD Student, Department of Computer Science and Engineering. University at Buffalo.
+    abstract: "Diabetic foot ulcers (DFUs) represent a significant global health challenge for the elderly with high mortality rates and complications. While imaging technologies like NIRS and hyperspectral imaging have improved wound assessment in clinical settings, their cost, and large size limit their use in the home and primary care. On the other hand, existing mobile solutions only capture secondary bio-markers like color and wound size. This paper introduces SigmoidOxy (or σ(Oxy)), a novel smartphone-based perfusion tool for DFU management. SigmoidOxy extracts oxygenation information from standard RGB images captured by smartphone cameras by applying hyperspectral reconstruction models to infer oxygenation. We evaluate SigmoidOxy's performance using the SPECTRALPACA dataset finding an Average Persons R of 0.72 and Average Mean Absolute Error of 0.239 when comparing sigmoid oxygenation signals and analyze its sensitivity to ischemia in the DFUC2021 dataset."
+    talk: "SigmoidOxy: A Light-weight mobile perfusion tool for diabetic foot management"
+    url: https://www.linkedin.com/in/ajgherardi/
+    session: oral3
+
+  - name: Tao Chen
+    title: "Postdoctoral Associate. Department of Computer Science, University of Pittsburgh."
+    abstract: "The elderly over 65 accounts for 80% of COVID deaths in the United States. In response to the pandemic, the federal, state governments, and commercial insurers are promoting video visits, through which the elderly can access specialists at home over the Internet, without the risk of COVID exposure. However, the current video visit practice barely relies on video observation and talking. The specialist could not assess the patient's health conditions by performing auscultations. This talk presents my work on addressing this key missing component in video visits by proposing Asclepius, a hardware-software solution that turns the patient's earphones into a stethoscope, allowing the specialist to hear the patient's fine-grained heart sound (i.e., PCG signals) in video visits. To achieve this goal, we contribute a low-cost plug-in peripheral that repurposes the earphone's speaker into a microphone and uses it to capture the patient's minute PCG signals from her ear canal. As the PCG signals suffer from strong attenuation and multi-path effects when propagating from the heart to ear canals, we then propose efficient signal processing algorithms coupled with a data-driven approach to de-reverberate and further correct the amplitude and frequency distortion in raw PCG receptions. We implement Asclepius on a 2-layer PCB board and follow the IRB protocol to evaluate its performance with 30 volunteers. Our extensive experiments show that Asclepius can effectively recover Phonocardiogram (PCG) signals with different types of earphones. The objective blind testing and subjective interview with five cardiologists further confirm the clinical efficacy and efficiency of our system. PCG signal samples, benchmark results, and cardiologist interviews can be found at: https://asclepius-system.github.io/"
+    talk: "Remote Cardiac Auscultation with Conventional Earphones"
+    url: https://tachen-cs.github.io/
+    session: oral3
+
+  - name: Colin Barry
+    title: Chief Technology Officer, Billion Labs Inc. PhD student, Electrical and Computer Engineering, UCSD.
+    talk: "VibroBP: Oscillometric Blood Pressure Measurements on Smartphones using Vibrometric Force Estimation"
+    abstract: "VibroBP is a smartphone-based solution for measuring blood pressure (BP) using the oscillometric method. To measure BP, it is necessary to measure (1) the pressure applied to the artery and (2) the local blood volume change. This is accomplished by performing an oscillometric measurement at the finger's digital artery, whereby a user presses down on the phone's camera with steadily increasing force. The camera is used to capture the blood volume change using photoplethysmography. We devised a novel method for measuring the force applied by the finger without the use of specialized smartphone hardware with a technique called Vibrometric Force Estimation (VFE). The fundamental concept of VFE relies on a phenomenon where a vibrating object is dampened when an external force is applied on to it. This phenomenon can be recreated using the phone's own vibration motor and with powerthe resulting damped vibration measured using the Inertial Measurement Unit (IMU). A cross device reliability study with three smartphones of different manufacturers, shape, and prices results in similar force estimation performance across all smartphone models. In an N = 24 validation study of the BP measurement, the smartphone technique achieves a MAE of 9·35 mmHg and 7·94 mmHg of systolic and diastolic BP, respectively, compared to an FDA approved BP cuff. The vision for this technology is not necessarily to replace existing BP monitoring solutions, but rather to introduce a downloadable smartphone software application that could serve as a low-barrier hypertension screening measurement fit for widespread adoption."
+    url: https://www.colinobarry.com/
+    session: oral3
+
+  - name: Laureano Moro-Velázquez
+    title: "Assistant Research Professor, Department of Electrical and Computer Engineering, Johns Hopkins University"
+    talk: "Multimodal evaluation of neurodegenerative disorders with portable equipment"
+    abstract: "Neurodegenerative conditions significantly impact our speech, eye movement, handwriting, and gait patterns. This results in dysarthria, changes in vocabulary, reading problems, micrographia, and festination, among many others. These signs can be measured and used for early diagnosis of disease and also for long-term monitoring . Our research aims to leverage multimodal characterization of patients employing portable equipment that captures all modalities simultaneously. The resulting uni-modal and multi-modal metrics can be used to detect and monitor neurodegenerative diseases such as Alzheimer’s and Parkinson’s Disease, and to differentiate Parkinson’s disease from mimicking disorders."
+    url: https://pages.jh.edu/lmorove1/index.html
+    session: oral4
+
+  - name: Eun Kyoung Choe
+    title: Associate Professor, College of Information at the University of Maryland, College Park. 
+    talk: "Speech in Motion: Multimodal Interactions in Personal Health Technology"
+    abstract: "In this talk, I will present how multimodal interactions, such as combining speech and touch, can create inclusive and accessible health tracking experiences for individuals with diverse health tracking needs. I will first showcase how speech enables older adults to collect rich data with low burden. Next, I will introduce multimodal feedback as a way to transform stroke survivors’ limb performance data into actionable insights, offering therapeutic support. By leveraging multimodal interactions, our research aims to lower the data collection burden and improve accessibility while enhancing the overall user experience."
+    url: https://terpconnect.umd.edu/~choe/
+    session: oral4
+
+  - name:  In Y. Baek
+    title: M.D. Candidate, Tufts University School of Medicine.
+    talk: "Reimagining Reminders to Increase Medication Adherence in Older Adults"
+    session: posters
+    url: https://www.linkedin.com/in/isaac-baek-b229bb18b/
+
+  - name: Ruipu Hu
+    title: PhD Student. Information School, University of Maryland College Park.
+    talk: Studying Older Adults Perceptions on AI Through AI Lectures
+    session: posters
+    url: https://ischool.umd.edu/directory/ruipu-hu/
+
+  - name:  Heng Sun
+    title: Developer, University of Florida.
+    talk: "Enhancing EHR Systems with data from wearables: An end-to-end Solution for monitoring post-Surgical Symptoms in older adults"
+    session: posters
+    url: https://www.linkedin.com/in/jimmysoccer/
+
+  - name: Nupur Wagle
+    title: Masters Student. Information School, University of Maryland College Park.
+    talk: The User's Burden in Managing Self-Tracking Technologies
+    session: posters
+    url: https://www.linkedin.com/in/nupur-wagle/
+
+  - name: Liekang Zeng
+    title: Postdoctoral Research Fellow. Department of Information Engineering, The Chinese University of Hong Kong.
+    talk: Resident Health Agent Personalization via Collaborative Edge Fine-Tuning
+    session: posters
+    url: https://acomze.github.io/
+
+
+
