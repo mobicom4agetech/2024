@@ -78,38 +78,38 @@ sessions:
    type: remarks
 
 speakers:
-  - name: Benjamin M. Marlin, PhD. 
-    title: Professor of Computer Science. University of Massachusetts Amherst.
+  - name: Benjamin M. Marlin 
+    title: Professor of Computer Science, University of Massachusetts Amherst.
     session: welcome
     url: https://groups.cs.umass.edu/marlin/
 
-  - name: Deepak Ganesan, PhD. 
-    title: Professor of Computer Science. University of Massachusetts Amherst.
+  - name: Deepak Ganesan
+    title: Professor of Computer Science, University of Massachusetts Amherst.
     session: closing
     url: https://people.cs.umass.edu/~dganesan/
 
-  - name: George Demiris, PhD, FACMI. 
+  - name: George Demiris
     title: Mary Alice Bennett University Professor. Penn Integrates Knowledge University Professor. Associate Dean for Research and Innovation. University of Pennsylvania School of Nursing.
     session: keynote1
     url: https://www.nursing.upenn.edu/live/profiles/15259-george-demiris
     
-  - name: Niteesh K. Choudhry, MD, PhD. 
+  - name: Niteesh K. Choudhry
     title: Professor of Medicine, Harvard Medical School. Professor, Department of Health Policy and Management, Harvard T.H. Chan School of Public Health. Executive Director, Center for Healthcare Delivery Sciences, Brigham and Women's Hospital.
     session: keynote2
     url: https://postgraduateeducation.hms.harvard.edu/faculty-staff/niteesh-k-choudhry
 
   - name: Amelia Hay
-    title: VP of Startup Programming and Investments at AgeTech Collaborative™. AARP.
+    title: VP of Startup Programming and Investments at AgeTech Collaborative™, AARP.
     session: panel-funding
     url:  https://aarpinnovationlabs.org
 
   - name: Abid Siddiqui
-    title: Principal. AI Fund.
+    title: Principal, AI Fund.
     session: panel-funding
     url:  https://www.aifund.ai
 
   - name: Xiaomin Ouyang
-    title: "Assistant Professor at Department of Computer Science & Engineering, Hong Kong University of Science and Technology."
+    title: "Assistant Professor, Department of Computer Science & Engineering, Hong Kong University of Science and Technology."
     talk: "Detecting Digital Biomarkers of Alzheimer's Disease with AI-Powered Multimodal Sensing Systems"
     abstract: "Over 55 million people worldwide have Alzheimer’s Disease (AD), a degenerative and irreversible brain disorder. Unfortunately, 75% of AD patients remain undiagnosed, as current diagnostic methods are usually intrusive and labor-intensive. In our work, we focus on detecting digital biomarkers that capture the behavioral symptoms of AD for early diagnosis. We will first introduce the design and deployment of ADMarker, an end-to-end system that integrates multimodal sensing technologies and federated learning algorithms for identifying multidimensional digital biomarkers in natural living environments. This system has been deployed in a clinical trial involving over 100 elderly subjects. Next, we will discuss how we tackle real-world challenges in such systems such as distributed and imperfect IoT data, limited resources, scalability, etc. By addressing these issues, our system accurately detects digital biomarkers and enables early AD identification, providing a new platform for longitudinal health monitoring and personalized intervention."
     url: https://xmouyang.github.io/
@@ -142,7 +142,7 @@ speakers:
     session: panel-tech
 
   - name: Yaxiong Xie
-    title: "Assistant Professor, Department of Computer Science and Engineering,  University at Buffalo, SUNY. Director, Next Generation Mobile-Network Lab"
+    title: "Assistant Professor, Department of Computer Science and Engineering,  University at Buffalo, SUNY. Director, Next Generation Mobile-Network Lab."
     url: https://xieyaxiongfly.github.io/
     session: panel-tech
 
@@ -152,7 +152,7 @@ speakers:
     session: panel-tech
 
   - name: Alexander Gherardi
-    title: PhD Student, Department of Computer Science and Engineering. University at Buffalo.
+    title: PhD Student, Department of Computer Science and Engineering, University at Buffalo.
     abstract: "Diabetic foot ulcers (DFUs) represent a significant global health challenge for the elderly with high mortality rates and complications. While imaging technologies like NIRS and hyperspectral imaging have improved wound assessment in clinical settings, their cost, and large size limit their use in the home and primary care. On the other hand, existing mobile solutions only capture secondary bio-markers like color and wound size. This paper introduces SigmoidOxy (or σ(Oxy)), a novel smartphone-based perfusion tool for DFU management. SigmoidOxy extracts oxygenation information from standard RGB images captured by smartphone cameras by applying hyperspectral reconstruction models to infer oxygenation. We evaluate SigmoidOxy's performance using the SPECTRALPACA dataset finding an Average Persons R of 0.72 and Average Mean Absolute Error of 0.239 when comparing sigmoid oxygenation signals and analyze its sensitivity to ischemia in the DFUC2021 dataset."
     talk: "SigmoidOxy: A Light-weight mobile perfusion tool for diabetic foot management"
     url: https://www.linkedin.com/in/ajgherardi/
@@ -168,12 +168,12 @@ speakers:
   - name: Colin Barry
     title: Chief Technology Officer, Billion Labs Inc. PhD student, Electrical and Computer Engineering, UCSD.
     talk: "VibroBP: Oscillometric Blood Pressure Measurements on Smartphones using Vibrometric Force Estimation"
-    abstract: "VibroBP is a smartphone-based solution for measuring blood pressure (BP) using the oscillometric method. To measure BP, it is necessary to measure (1) the pressure applied to the artery and (2) the local blood volume change. This is accomplished by performing an oscillometric measurement at the finger's digital artery, whereby a user presses down on the phone's camera with steadily increasing force. The camera is used to capture the blood volume change using photoplethysmography. We devised a novel method for measuring the force applied by the finger without the use of specialized smartphone hardware with a technique called Vibrometric Force Estimation (VFE). The fundamental concept of VFE relies on a phenomenon where a vibrating object is dampened when an external force is applied on to it. This phenomenon can be recreated using the phone's own vibration motor and with powerthe resulting damped vibration measured using the Inertial Measurement Unit (IMU). A cross device reliability study with three smartphones of different manufacturers, shape, and prices results in similar force estimation performance across all smartphone models. In an N = 24 validation study of the BP measurement, the smartphone technique achieves a MAE of 9·35 mmHg and 7·94 mmHg of systolic and diastolic BP, respectively, compared to an FDA approved BP cuff. The vision for this technology is not necessarily to replace existing BP monitoring solutions, but rather to introduce a downloadable smartphone software application that could serve as a low-barrier hypertension screening measurement fit for widespread adoption."
+    abstract: "VibroBP is a smartphone-based solution for measuring blood pressure (BP) using the oscillometric method. To measure BP, it is necessary to measure (1) the pressure applied to the artery and (2) the local blood volume change. This is accomplished by performing an oscillometric measurement at the finger's digital artery, whereby a user presses down on the phone's camera with steadily increasing force. The camera is used to capture the blood volume change using photoplethysmography. We devised a novel method for measuring the force applied by the finger without the use of specialized smartphone hardware with a technique called Vibrometric Force Estimation (VFE). The fundamental concept of VFE relies on a phenomenon where a vibrating object is dampened when an external force is applied on to it. This phenomenon can be recreated using the phone's own vibration motor and with power the resulting damped vibration measured using the Inertial Measurement Unit (IMU). A cross device reliability study with three smartphones of different manufacturers, shape, and prices results in similar force estimation performance across all smartphone models. In an N = 24 validation study of the BP measurement, the smartphone technique achieves a MAE of 9·35 mmHg and 7·94 mmHg of systolic and diastolic BP, respectively, compared to an FDA approved BP cuff. The vision for this technology is not necessarily to replace existing BP monitoring solutions, but rather to introduce a downloadable smartphone software application that could serve as a low-barrier hypertension screening measurement fit for widespread adoption."
     url: https://www.colinobarry.com/
     session: oral3
 
   - name: Laureano Moro-Velázquez
-    title: "Assistant Research Professor, Department of Electrical and Computer Engineering, Johns Hopkins University"
+    title: "Assistant Research Professor, Department of Electrical and Computer Engineering, Johns Hopkins University."
     talk: "Multimodal evaluation of neurodegenerative disorders with portable equipment"
     abstract: "Neurodegenerative conditions significantly impact our speech, eye movement, handwriting, and gait patterns. This results in dysarthria, changes in vocabulary, reading problems, micrographia, and festination, among many others. These signs can be measured and used for early diagnosis of disease and also for long-term monitoring . Our research aims to leverage multimodal characterization of patients employing portable equipment that captures all modalities simultaneously. The resulting uni-modal and multi-modal metrics can be used to detect and monitor neurodegenerative diseases such as Alzheimer’s and Parkinson’s Disease, and to differentiate Parkinson’s disease from mimicking disorders."
     url: https://pages.jh.edu/lmorove1/index.html
@@ -193,7 +193,7 @@ speakers:
     url: https://www.linkedin.com/in/isaac-baek-b229bb18b/
 
   - name: Ruipu Hu
-    title: PhD Student. Information School, University of Maryland College Park.
+    title: PhD Student, Information School, University of Maryland College Park.
     talk: Studying Older Adults Perceptions on AI Through AI Lectures
     session: posters
     url: https://ischool.umd.edu/directory/ruipu-hu/
@@ -205,13 +205,13 @@ speakers:
     url: https://www.linkedin.com/in/jimmysoccer/
 
   - name: Nupur Wagle
-    title: Masters Student. Information School, University of Maryland College Park.
+    title: Masters Student, Information School, University of Maryland College Park.
     talk: The User's Burden in Managing Self-Tracking Technologies
     session: posters
     url: https://www.linkedin.com/in/nupur-wagle/
 
   - name: Liekang Zeng
-    title: Postdoctoral Research Fellow. Department of Information Engineering, The Chinese University of Hong Kong.
+    title: Postdoctoral Research Fellow, Department of Information Engineering, The Chinese University of Hong Kong.
     talk: Resident Health Agent Personalization via Collaborative Edge Fine-Tuning
     session: posters
     url: https://acomze.github.io/

@@ -34,7 +34,7 @@
                         <ul style="margin-top:5px">
                            {% for p in speakers %}
                              <li style="font-weight:normal;">                             
-                                <a href = {{p.url}} target="_blank">{{p.name}}</a>, {{p.title}} 
+                                <a href = {{p.url}} target="_blank">{{p.name}}</a> {{p.title}} 
                              {% if s.type == "oral" %}
                                  <i>{{p.talk}}.</i> 
                                 <a data-toggle="collapse" href="#abstract-{{s.name}}-{{forloop.index}}" aria-expanded="false" aria-controls="abstract-{{s.name}}-{{forloop.index}}">(Abstract)</a>
