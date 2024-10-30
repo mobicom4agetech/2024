@@ -60,13 +60,13 @@ sessions:
    type: break
 
  - start: 4:00pm
-   end: 4:40am
+   end: 4:40pm
    title: "Oral Session 4: Multimodal Assessment and Intervention"
    name: oral4
    type: oral
 
  - start: 4:40pm
-   end: 5:25am
+   end: 5:25pm
    title: "Panel Discussion: AgeTech Funding and Accelerators"
    name: panel-funding
    type: panel
