@@ -83,6 +83,11 @@ speakers:
     session: welcome
     url: https://groups.cs.umass.edu/marlin/
 
+  - name: Rebecca Krupenevich 
+    title:  Program Official, Division of Behavioral and Social Research, National Institutes on Aging. 
+    session: welcome
+    url: https://www.nia.nih.gov/about/staff/krupenevich-rebecca
+
   - name: Deepak Ganesan
     title: Professor of Computer Science, University of Massachusetts Amherst.
     session: closing
@@ -97,6 +102,11 @@ speakers:
     title: Professor of Medicine, Harvard Medical School. Professor, Department of Health Policy and Management, Harvard T.H. Chan School of Public Health. Executive Director, Center for Healthcare Delivery Sciences, Brigham and Women's Hospital.
     session: keynote2
     url: https://postgraduateeducation.hms.harvard.edu/faculty-staff/niteesh-k-choudhry
+
+  - name: Partha Bhattacharyya
+    title: Program Director, Division of Behavioral and Social Research, National Institute on Aging.
+    session: panel-funding
+    url:  https://www.nia.nih.gov/about/staff/bhattacharyya-partha
 
   - name: Amelia Hay
     title: VP of Startup Programming and Investments at AgeTech Collaborative™, AARP.
