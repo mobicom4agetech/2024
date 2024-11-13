@@ -37,7 +37,7 @@ sessions:
    type: panel
 
  - start: 12:25pm
-   end: 1:25pm
+   end: 2:00pm
    title: "<a href='#posters'>Poster and demo viewing,</a> Lunch."
    name: lunch
    type: break
