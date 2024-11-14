@@ -1,0 +1,63 @@
+---
+# this is an empty front matter
+---
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.data.conference.short_title }} {{ site.data.conference.year }} | ACM MobiCom {{ site.data.conference.year }}</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+{% include header-small.html %}
+
+<section id="organization" class="section faq" style="display: block;">
+    <div class="container">
+
+        <h3>Proceedings</h3>
+
+        <p>This workshop accepted full research papers and extended abstract submissions. The full research papers will appear as part of the official workshop proceedings and will be available for download through the <A HREF="https://dl.acm.org/" target="_blank">ACM Digital Library</A>. We will provide links to full research papers when they are published in the ACM Digital Library. While the extended abstracts are not included in the official ACM workshop proceedings, they are available for download below.</P>
+
+        <H4>Research Papers</H4>
+
+        <UL>
+        {% for paper in site.data.papers.papers %}
+            <LI style="font-weight:normal;">{{ paper.authors }}. <I>{{ paper.title }}</I>
+                <a data-toggle="collapse" href="#paper-{{forloop.index}}" aria-expanded="false" aria-controls="paper-{{forloop.index}}">(Abstract)</a>
+                <div class="collapse" id="paper-{{forloop.index}}" style="margin-top:5px;">
+                    <p><u>Abstract:</u> {{paper.abstract}}</p>
+                </div>
+            </LI>
+        {% endfor %}
+        </UL>
+
+        <BR>
+        <H4>Extended Abstracts</H4>
+
+        <UL>
+        {% for paper in site.data.papers.abstracts %}
+            <LI style="font-weight:normal;">{{ paper.authors }}. <A href="{{ paper.link }}" target="_blank"> <I>{{ paper.title }}</I></A>
+                <a data-toggle="collapse" href="#abstract-{{forloop.index}}" aria-expanded="false" aria-controls="abstract-{{forloop.index}}">(Abstract)</a>
+                <div class="collapse" id="abstract-{{forloop.index}}" style="margin-top:5px;">
+                    <p><u>Abstract:</u> {{paper.abstract}}</p>
+                </div>
+            </LI>
+        {% endfor %}
+        </UL>
+
+    </div>
+</section>
+
+<!-- import navigation bar and header -->
+<script src="//code.jquery.com/jquery.min.js"></script>
+
+<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+</body>
+</html>
