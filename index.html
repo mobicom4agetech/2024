@@ -35,22 +35,22 @@
             <li>Contributed demos and posters</li>
             <br>
 
-            <p><b>SPEAKERS:</b> We are excited to announce an initial slate of speakers. Please check back for updates as the workshop program is still growing!  </P>
-			{% if site.data.speakers.size > 0 %}
-            <div style="gap: 20px; margin-bottom:10px;display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));">
-                        {% assign speakers = site.data.speakers | sort: 'lastname' %}
-						{% for person in speakers %} 
-                            <div style="width:120px;">
-                            <A href="{{ person.link }}" target="_blank"><img src='img/speakers/{{ person.lastname }}.jpg' style="width:120px;border-radius: 50%;">
-                                <div style="text-align: center;font-size: 11px;">
-                                   <B>{{ person.firstname }} {{ person.lastname }}</B></A><br>  
-                                   {{ person.affiliation }}
-                                </div> 
-                            </div>
-						{% endfor %}
-			{% endif %}
-            </div>
-
+            <p><b>SPEAKERS:</b> We are excited to announce the final slate of speakers for the workshop!  </P>
+                <div style="gap: 20px; margin-bottom:10px;display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));">
+                            {% assign speakers = site.data.program.speakers | sort: 'name' %}
+                            {% for person in speakers %}
+                                    {% if person.img != nil %}
+                                        <div style="width:120px;">
+                                        <A href="{{ person.url }}" target="_blank"><img src='img/speakers/{{person.img}}' style="width:120px;border-radius: 50%;">
+                                            <div style="text-align: center;font-size: 11px;">
+                                            <B>{{ person.name }}</B></A><br>  
+                                            {{ person.short_title }}
+                                            </div> 
+                                        </div>
+                                    {% endif %}
+                            {% endfor %}
+                </div>
+            <BR>
             <p align="justify"><b>VENUE:</b> The 1st ACM Workshop on Wireless and Mobile Computing for AgeTech (MobiCom4AgeTech) will be co-located with the <A HREF="https://www.sigmobile.org/mobicom/2024/" target="_blank">30th Annual International Conference on Mobile Computing and Networking (MobiCom 2024)</A>. The conference and workshop will be held at the <A HREF="https://www.hilton.com/en/hotels/dcashhh-capital-hilton/" target="_blank">Capital Hilton</A> in Washington D.C. Please use <A href="https://book.passkey.com/go/ACMMobicon2024" target="_blank">this link</A> for hotel reservations. See the <A href="venue.html">workshop venue page</A> for session location details.</p>
 
             <p align="justify"><b>REGISTERING and ATTENDING:</b> Attendees and workshop participants have the option to register for either the main conference and the workshop, or only the workshop. Please see the <A href="https://www.sigmobile.org/mobicom/2024/registration.html" target="_blank">MobiCom 2024 Registration page</A> for registration details. Early bird rates are available until October 21st.</p>
